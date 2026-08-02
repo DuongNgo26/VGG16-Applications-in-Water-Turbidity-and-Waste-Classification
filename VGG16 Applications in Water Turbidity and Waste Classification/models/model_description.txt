@@ -1,0 +1,53 @@
+Model Name:
+Fine-Tuned VGG16
+
+Base Model:
+VGG16 (pretrained on ImageNet)
+
+Input Size:
+224 × 224 × 3
+
+Transfer Learning:
+Yes
+
+Frozen Layers:
+All convolutional layers
+
+Removed Layers:
+- Flatten
+- Fully Connected Layer (4096)
+- Fully Connected Layer (4096)
+- Softmax Layer (1000 classes)
+
+Added Layers:
+- Flatten
+- Dense (128, ReLU)
+- Dropout (0.5)
+- Dense (Softmax)
+
+Output Classes:
+Water Turbidity Dataset:
+- 0.1
+- 0.2
+- 0.3
+- 0.4
+- 0.5
+
+Waste Classification Dataset:
+- Organic Waste
+- Inorganic Waste
+- Hazardous Waste
+- Recyclable Waste
+
+Training Platform:
+Google Colab (GPU)
+
+Techniques:
+- Transfer Learning
+- Early Stopping
+- Data Augmentation
+
+Framework:
+TensorFlow
+Keras
+Python
