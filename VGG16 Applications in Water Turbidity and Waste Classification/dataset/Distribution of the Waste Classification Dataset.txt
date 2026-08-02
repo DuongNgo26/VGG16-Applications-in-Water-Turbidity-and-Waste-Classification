@@ -1,8 +1,0 @@
-## Waste Dataset Distribution
-
-| Label Category | Training Dataset | Validation Dataset | Test Dataset |
-|---|---:|---:|---:|
-| Organic Waste | 250 | 37 | 38 |
-| Inorganic Waste | 250 | 37 | 38 |
-| Hazardous Waste | 250 | 37 | 38 |
-| Recyclable Waste | 250 | 37 | 38 |
