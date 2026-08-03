@@ -120,3 +120,5 @@ This project was developed by a student group at the University of Transport Tec
 - Model implementation using TensorFlow and Keras
 - Performance evaluation and visualization
 - Project documentation
+
+This repository is intended for educational and academic purposes.
