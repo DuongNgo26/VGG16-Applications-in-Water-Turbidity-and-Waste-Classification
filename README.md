@@ -110,3 +110,13 @@ Accuracy: 90.13%
 University of Transport Technology (UTT)
 
 Department of Information Systems
+
+This project was developed by a student group at the University of Transport Technology (UTT).
+
+### My contribution
+
+- Literature review on CNN and VGG16
+- Data preprocessing and augmentation
+- Model implementation using TensorFlow and Keras
+- Performance evaluation and visualization
+- Project documentation
